@@ -1,3 +1,44 @@
-/* marrom-claro #E1CFA3*/
-/* amarelo-claro #F8F0DE 
-#4A4435
+*{
+   --cor-texto: #373737;
+   --cor-principal: #E1CFA3;
+}
+/* Paleta de cores*/
+/* :root{
+--marrom_claro: #E1CFA3;
+--amarelo_claro:  #F8F0DE ;
+--marrom: #4a4435;
+--cinza: #909090;
+--cinza_escuro: #2b2b2b;
+--
+} */
+body{
+    background-color: #fff;
+     font-family: sans-serif;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   padding: 2em;
+}
+ul{
+    height:100% ;
+}
+
+.header-nav{
+    display: flex;
+    gap: 1.5em;
+    align-items: end;
+}
+
+.nav-item{
+    color: var(--cor-texto) ;
+}
+
+/* conteudo principal*/
+.titulo{
+color: #fff;
+background-color: var(--cor-principal);
+font-size: 40px;
+text-align: center;
+padding: 1em;
+}
