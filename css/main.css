@@ -1,7 +1,9 @@
 *{
    --cor-texto: #373737;
    --cor-principal: #E1CFA3;
-   --cor-texto-sobre-fundo: #ffff
+   --cor-texto-sobre-fundo: #ffff;
+   --cor-titulo: #2b2b2b;
+   --cor-principal-clara: #f8f0de;
 }
 /* Paleta de cores*/
 /* :root{
@@ -52,7 +54,7 @@ font-weight: 100;
 }
 
 .subtitulo{
-    color: var(--cor-texto);
+    color: var(--cor-titulo);
     font-size: 3em;
     text-align: center;
     margin:2em 0 1em;
@@ -65,4 +67,27 @@ font-weight: 100;
     text-align: center;
     line-height: 1.5em;
 
+}
+
+.sec-fundo{
+    background-color: var(--cor-principal-clara);
+    padding: 3em 0;
+}
+
+.img1{
+    margin: 0 0.5em 1em;
+}
+.img2{
+    position: relative;
+    right: 1em;
+    margin: 0 0 1em;
+}
+.img3{
+    position: relative;
+    right: 2em ;
+    margin: 0 0 1em;
+}
+
+imags-projetos{
+    width: 4px;
 }
